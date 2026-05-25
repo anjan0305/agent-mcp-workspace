@@ -1,0 +1,26 @@
+Step 1
+Load the env file to get the API tokens
+from dotenv import load_env
+
+
+Step 2
+Import init_chat_model
+from langchain.chat_models import init_chat_model
+
+Step 3
+import the create_agent
+from langchain.agents import create_agent
+
+
+Step 4
+import tools
+from langchain.tools import tool
+
+
+Step 5
+to add short term memory to llm 
+from langgraph.checkpoint.memory import InMemorySaver
+
+Step6
+to format the input messages
+from langchain.messages import HumanMessage
