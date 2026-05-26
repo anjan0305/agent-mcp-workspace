@@ -1,1 +1,1 @@
-hello
+Deleted file
